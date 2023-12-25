@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.listUser{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 60px;
+    padding: 50px;
+    
+}
+.listUser .user{
+    padding: 15px;
+    width: calc(25% - 20px);
+    margin: 30px 10px;
+}
+.listUser .user:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.listUser img{
+    object-fit: cover;
+    aspect-ratio: 6/4;
+    height: 250px;
+}
+button{
+    width: 100px;
+    padding: 5px 0;
+    background-color: #0082AD;
+    margin: 5px 0;
+    color: white;
+
+}
+button:hover{
+    background-color: white;
+    color: #0082AD;
+    cursor: pointer;
+}

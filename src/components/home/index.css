@@ -1,0 +1,78 @@
+
+.body{
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    background-image: url("./img/paralyzed-asian-employee-working-call-center-reception-disability-friendly-office-female-operator-wheelchair-user-with-impairment-giving-assistance-customer-service-helpline.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    background-color: #0082AD;
+    padding: 100px 0;
+}
+.banner .main{
+    background-color: white;
+    width: 550px;
+    padding: 30px;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    border-radius: 10px;
+    
+}
+.banner .main::after{
+    content: "";
+    background-color: #0082AD;
+    width: 300px;
+    height: 200px;
+}
+.banner .main .title{
+    font-size: 30px;
+    font-weight: 550;
+}
+.banner .main .desc{
+    margin: 20px 0;
+    text-align: justify;
+}
+.list{
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 150px 100px;
+}
+.list .box{
+    background-color: #F1F0FE;
+    padding: 30px;
+    padding-top: 80px;
+    border-radius: 20px;
+    margin: 0 40px;
+    position: relative;
+}
+.list .box .title{
+    font-size: 25px;
+    font-weight: 550;
+}
+.list .box .desc{
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+.list .box .icon{
+    position: absolute;
+    top: -79px;
+    right: -45px;
+    background-color: #0082AD;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 80px;
+    color: white;
+}
+button{
+    width: 130px;
+    height: 40px;
+    white-space: nowrap;
+}
