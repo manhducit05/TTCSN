@@ -5,6 +5,7 @@ import './listUser.css'
 import ShowUser from './showUser';
 
 function ListUser(props){
+    // trang dùng để vẽ danh sách khách hàng
     const {reload} = props
     const {onReload} = props
     const [data, setData] = useState([]);
