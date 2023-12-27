@@ -5,7 +5,7 @@ function QnA (){
     const [loading,setLoading] = useState(true);
     useEffect(()=>{
         const fetchApi = ()=>{
-            fetch(`https://hnnrcz-8080.csb.app/qna`)
+            fetch(`https://jqy9tn-8080.csb.app/qna`)
             .then(res=>res.json())
             .then(data=>{
                 setData(data);

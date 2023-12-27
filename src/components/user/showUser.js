@@ -37,7 +37,7 @@ function ShowUser(props){
       }
       function handleSubmit(e){
         e.preventDefault();
-        fetch(`https://hnnrcz-8080.csb.app/user/${item.id}`,{
+        fetch(`https://jqy9tn-8080.csb.app/user/${item.id}`,{
           method: "PATCH",
           headers:{
             Accept: "application/json",
@@ -87,11 +87,11 @@ function ShowUser(props){
                 </tr>
                 <tr>
                   <td>Năm sinh: </td>
-                  <td><input type='text' name='birth' value={item.birth}></input></td>       
+                  <td><input type='text' name='birth' value={item.birthDate}></input></td>       
                 </tr>
                 <tr>
                   <td>Số điện thoại: </td>
-                  <td><input type='text' name='phone' value={item.phone}></input></td>       
+                  <td><input type='text' name='phone' value={item.phoneNumber}></input></td>       
                 </tr>
                 <tr>
                   <td>Email: </td>
@@ -100,6 +100,10 @@ function ShowUser(props){
                 <tr>
                     <td>Nghề nghiệp</td>
                     <td><input type='text' name='job'value={item.job}></input></td>
+                </tr>
+                <tr>
+                    <td>Tích lũy: </td>
+                    <td><input type='text' name='job'value={item.accumulate}></input></td>
                 </tr>
                 <tr>
                     <td>Xếp hạng</td>

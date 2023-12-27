@@ -35,7 +35,7 @@ function AddUser(props){
       }
       function handleSubmit(e){
         e.preventDefault();
-        fetch("https://hnnrcz-8080.csb.app/user",{
+        fetch("https://jqy9tn-8080.csb.app/user",{
           method: "POST",
           headers:{
             Accept: "application/json",
@@ -85,11 +85,11 @@ function AddUser(props){
                 </tr>
                 <tr>
                     <td>Năm sinh: </td>
-                    <td><input type='text' name='birth' onChange={handleChange} required></input></td>
+                    <td><input type='text' name='birthDate' onChange={handleChange} required></input></td>
                 </tr>
                 <tr>
                     <td>Số điện thoại: </td>
-                    <td><input type='text' name='phone' onChange={handleChange} required></input></td>
+                    <td><input type='text' name='phoneNumber' onChange={handleChange} required></input></td>
                 </tr>
                 <tr>
                     <td>Email: </td>
@@ -98,6 +98,10 @@ function AddUser(props){
                 <tr>
                     <td>Nghề nghiệp</td>
                     <td><input type='text' name='job' onChange={handleChange} required></input></td>
+                </tr>
+                <tr>
+                    <td>Tích lũy: </td>
+                    <td><input type='text' name='accumulate' onChange={handleChange} required></input></td>
                 </tr>
                 <tr>
                     <td>Xếp hạng</td>

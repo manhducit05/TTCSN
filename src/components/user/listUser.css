@@ -40,3 +40,15 @@ button:hover{
     color: #0082AD;
     cursor: pointer;
 }
+.pagination{
+    background-color: white ;
+}
+.pagination button{
+    background-color: white ;
+    color:#0082AD;
+    border: 1px solid #0082AD ;
+}
+.pagination button:hover{
+    background-color: #0082AD;
+    color: white;
+}

@@ -17,7 +17,7 @@ function DeleteUser(props){
             cancelButtonText:'Hủy'
           }).then((result) => {
             if (result.isConfirmed) {
-            fetch(`https://hnnrcz-8080.csb.app/user/${item.id}`,{method:'DELETE'})
+            fetch(`https://jqy9tn-8080.csb.app/user/${item.id}`,{method:'DELETE'})
             .then(res=>res.json())
             .then(()=>{  
                 onReload()             
